@@ -46,6 +46,7 @@ jobs:
           account_type: org
           black_list: 'zero'
           force_update: true
+          debug: true
 
       - name: Print cache path
         run: |
