@@ -44,7 +44,7 @@ jobs:
           static_list: '${{ steps.repo.outputs.repoList_FORK }}'
           cache_path: /github/workspace/hub-mirror-cache
           account_type: org
-          black_list: 'zero'
+          black_list: 'zero,nvm'
           force_update: true
           debug: true
 
